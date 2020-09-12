@@ -22,7 +22,7 @@ public class Colors extends JFrame {
 
 	private JPanel contentPane;
 	JButton PinkButton = new JButton("Pink");
-	JButton YellowButton = new JButton("Yellow");
+	JButton MagentaButton = new JButton("Magenta");
 	JButton RedButton = new JButton("RED");
 	JButton GreenButton = new JButton("GREEN");
 
@@ -55,7 +55,7 @@ public class Colors extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		GreenButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
-		YellowButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
+		MagentaButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
 		RedButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
 		PinkButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
 
@@ -65,7 +65,7 @@ public class Colors extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				GreenButton.setBackground(Color.green);
 				RedButton.setBackground(Color.green);
-				YellowButton.setBackground(Color.green);
+				MagentaButton.setBackground(Color.green);
 				PinkButton.setBackground(Color.green);
 			}
 		});
@@ -79,7 +79,7 @@ public class Colors extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				GreenButton.setBackground(Color.red);
 				RedButton.setBackground(Color.red);
-				YellowButton.setBackground(Color.red);
+				MagentaButton.setBackground(Color.red);
 				PinkButton.setBackground(Color.red);
 			}
 		});
@@ -89,18 +89,18 @@ public class Colors extends JFrame {
 		contentPane.add(RedButton);
 		
 		//Button Yellow
-		YellowButton.addActionListener(new ActionListener() {
+		MagentaButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				GreenButton.setBackground(Color.yellow);
-				RedButton.setBackground(Color.yellow);
-				YellowButton.setBackground(Color.yellow);
-				PinkButton.setBackground(Color.yellow);
+				GreenButton.setBackground(Color.MAGENTA);
+				RedButton.setBackground(Color.MAGENTA);
+				MagentaButton.setBackground(Color.MAGENTA);
+				PinkButton.setBackground(Color.MAGENTA);
 			}
 		});
-		YellowButton.setBounds(336, 0, 112, 261);
-		YellowButton.setBackground(Color.yellow);
-		YellowButton.setOpaque(true);
-		contentPane.add(YellowButton);
+		MagentaButton.setBounds(336, 0, 112, 261);
+		MagentaButton.setBackground(Color.yellow);
+		MagentaButton.setOpaque(true);
+		contentPane.add(MagentaButton);
 		
 		//Button Blue
 		PinkButton.setLocation(218, 0);
@@ -108,7 +108,7 @@ public class Colors extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				GreenButton.setBackground(Color.pink);
 				RedButton.setBackground(Color.pink);
-				YellowButton.setBackground(Color.pink);
+				MagentaButton.setBackground(Color.pink);
 				PinkButton.setBackground(Color.pink);
 			}
 		});
