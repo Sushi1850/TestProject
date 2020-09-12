@@ -21,7 +21,7 @@ import java.awt.Font;
 public class Colors extends JFrame {
 
 	private JPanel contentPane;
-	JButton BlueButton = new JButton("BLUE");
+	JButton PinkButton = new JButton("Pink");
 	JButton YellowButton = new JButton("Yellow");
 	JButton RedButton = new JButton("RED");
 	JButton GreenButton = new JButton("GREEN");
@@ -57,7 +57,7 @@ public class Colors extends JFrame {
 		GreenButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
 		YellowButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
 		RedButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
-		BlueButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
+		PinkButton.setFont(new Font("Franklin Gothic Medium Cond", Font.PLAIN, 30));
 
 		
 		//Button Green
@@ -66,7 +66,7 @@ public class Colors extends JFrame {
 				GreenButton.setBackground(Color.green);
 				RedButton.setBackground(Color.green);
 				YellowButton.setBackground(Color.green);
-				BlueButton.setBackground(Color.green);
+				PinkButton.setBackground(Color.green);
 			}
 		});
 		GreenButton.setBounds(0, 0, 112, 261);
@@ -80,7 +80,7 @@ public class Colors extends JFrame {
 				GreenButton.setBackground(Color.red);
 				RedButton.setBackground(Color.red);
 				YellowButton.setBackground(Color.red);
-				BlueButton.setBackground(Color.red);
+				PinkButton.setBackground(Color.red);
 			}
 		});
 		RedButton.setBounds(108, 0, 112, 261);
@@ -94,7 +94,7 @@ public class Colors extends JFrame {
 				GreenButton.setBackground(Color.yellow);
 				RedButton.setBackground(Color.yellow);
 				YellowButton.setBackground(Color.yellow);
-				BlueButton.setBackground(Color.yellow);
+				PinkButton.setBackground(Color.yellow);
 			}
 		});
 		YellowButton.setBounds(336, 0, 112, 261);
@@ -103,19 +103,19 @@ public class Colors extends JFrame {
 		contentPane.add(YellowButton);
 		
 		//Button Blue
-		BlueButton.setLocation(218, 0);
-		BlueButton.addActionListener(new ActionListener() {
+		PinkButton.setLocation(218, 0);
+		PinkButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				GreenButton.setBackground(Color.blue);
-				RedButton.setBackground(Color.blue);
-				YellowButton.setBackground(Color.blue);
-				BlueButton.setBackground(Color.blue);
+				GreenButton.setBackground(Color.pink);
+				RedButton.setBackground(Color.pink);
+				YellowButton.setBackground(Color.pink);
+				PinkButton.setBackground(Color.pink);
 			}
 		});
-		BlueButton.setBackground(Color.blue);
-		BlueButton.setOpaque(true);
-		BlueButton.setSize(new Dimension(120, 261));
-		contentPane.add(BlueButton);
+		PinkButton.setBackground(Color.pink);
+		PinkButton.setOpaque(true);
+		PinkButton.setSize(new Dimension(120, 261));
+		contentPane.add(PinkButton);
 		
 		
 	}
